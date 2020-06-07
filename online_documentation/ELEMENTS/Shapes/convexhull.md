@@ -1,12 +1,12 @@
 # Convex Hull -凸包-
 
-[>]コンベックス ホウ
+> コンベックス ホウ
 
 https://docs.cavalry.scenegroup.co/elements/shapes/convex-hull
 
 他のシェイプを包含するシェイプを作成します。
 
-[Common Attributes +]
+### Common Attributes +
 
 **Input Shapes** - 凸包を描画するためのシェイプを接続します。
 
