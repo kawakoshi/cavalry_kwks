@@ -4,5 +4,5 @@
 [CavalryDocumention]https://docs.cavalry.scenegroup.co
 - 公式のドキュメントをベースに日本語化
 - ちょっとした図解の追加
-- サンプルのcvファイルとgifアニメーションを追加することも
+- サンプルのcvファイルとgifアニメーションを追加することも  
 自己責任で使用してね。
