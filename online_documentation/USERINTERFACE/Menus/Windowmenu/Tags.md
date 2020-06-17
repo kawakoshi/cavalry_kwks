@@ -11,7 +11,7 @@ https://docs.cavalry.scenegroup.co/user-interface/menus/window-menu/tags
 
 ## UI(ユーザーインタフェース)
 
-![スクリーンショット 2020-06-17 11.38.28](/Users/kawakoshi/Desktop/スクリーンショット 2020-06-17 11.38.28.png)
+![tags01](tags.assets/tags01.png)
 
 1. **Tags Button** - タグウィンドウを表示します。
 
@@ -19,19 +19,19 @@ https://docs.cavalry.scenegroup.co/user-interface/menus/window-menu/tags
 
 - **Selects** - タグウィンドウで選択したタグに割り当てられた要素を、シーンウィンドウとビューポートで選択します。
 
-  ![スクリーンショット 2020-06-17 11.31.11](/Users/kawakoshi/Desktop/スクリーンショット 2020-06-17 11.31.11.png)
+  ![tags02](Tags.assets/tags02.png)
 
 - **Filter Scene Window** - 選択したタグに割り当てられた要素のみをシーンウィンドウで表示します。
 
-  ![スクリーンショット 2020-06-17 11.31.32](/Users/kawakoshi/Desktop/スクリーンショット 2020-06-17 11.31.32.png)
+  ![tags03](tags.assets/tags03.png)
 
 - **Filter Viewport** - ビューポートで選択したタグに割り当てられた要素のみを表示します。
 
-  ![スクリーンショット 2020-06-17 11.31.50](/Users/kawakoshi/Desktop/スクリーンショット 2020-06-17 11.31.50.png)
+  ![tags04](tags.assets/tags04.png)
 
 - **Filter Both** - シーンウィンドウとビューポートの両方で、割り当てられたタグを持つ要素のみを表示します。
 
-  ![スクリーンショット 2020-06-17 11.32.04](/Users/kawakoshi/Desktop/スクリーンショット 2020-06-17 11.32.04.png)
+  ![tags05](Tags.assets/tags05.png)
 
 3. **Clear Tag Selection(タグ選択をクリア)** - 選択されたすべてのタグの選択を解除します。
 
@@ -41,7 +41,7 @@ https://docs.cavalry.scenegroup.co/user-interface/menus/window-menu/tags
 
 タグウィンドウには3種類のタグがあります。
 
-![スクリーンショット 2020-06-17 11.57.04](/Users/kawakoshi/Desktop/スクリーンショット 2020-06-17 11.57.04.png)
+![tags06](Tags.assets/tags06-2402146.png)
 
 1. **Quicklist(クイックリスト)** - クイックリストは一時的なタグと考えることができます。その状態は、あなたのシーンでは保存されません。
 2. **System Tags(システムタグ)** - **Label Color(ラベルの色)**と**Element Type(要素の種類)**に基づいて自動で割り当てられたタグ。
@@ -60,7 +60,7 @@ https://docs.cavalry.scenegroup.co/user-interface/menus/window-menu/tags
 - シーンウィンドウで `cmd/ctrl + Shift + t` をクリックすると、**タグの追加ウィンドウ**が表示されます。タグの名前を入力し、**Enter/Return**を押します。
   **Assign Tag to Selection(選択範囲にタグを割り当てる)**をオンにすると、選択した要素にも新しいタグが割り当てられます。
 
-  ![スクリーンショット 2020-06-17 14.13.51](/Users/kawakoshi/Desktop/スクリーンショット 2020-06-17 14.13.51.png)
+  ![tags07](Tags.assets/tags07.png)
 
 > **選択範囲にタグを割り当てる簡単な方法**として、alt/optionキーを押しながら**Return/Enter**キーを押します。これは、チェックボックスが有効かどうかにかかわらず、選択された要素にそのタグを割り当てます。
 
@@ -81,7 +81,7 @@ https://docs.cavalry.scenegroup.co/user-interface/menus/window-menu/tags
 
 - シーンウィンドウで**タグ/ラベルアイコン**をクリックして、タグの名前を入力し、**Return/Enter**を押します。
 
-  ![スクリーンショット 2020-06-17 14.31.44](/Users/kawakoshi/Desktop/スクリーンショット 2020-06-17 14.31.44.png)
+  ![tags08](Tags.assets/tags08.png)
 
 どちらかの方法でタグの割り当てを解除します。
 
@@ -105,14 +105,14 @@ cmd/ctrl または Shift を使用して、複数のタグを選択および/ま
 
 クイックリストをタグに変換するには、**タグウィンドウの任意の場所を右クリック**して、コンテキストメニューから**Convert Quicklist to Tag(クイックリストをタグに変換)**を選択します。(Quicklistに何も入っていない時はハイライトされません)
 
-![スクリーンショット 2020-06-17 14.49.36](/Users/kawakoshi/Desktop/スクリーンショット 2020-06-17 14.49.36.png)
+![tags09](Tags.assets/tags09.png)
 
 ### タグのネスト化(入れ子)
 
 タグを作成時に入れ子にすることで、タグ間の関係を作ることができます。
 これを行うには、タグの間に / (Forward Slash) を入力します。(親タグ / 子タグ)
 
-![スクリーンショット 2020-06-17 14.57.11](/Users/kawakoshi/Desktop/スクリーンショット 2020-06-17 14.57.11.png)
+![tags10](Tags.assets/tags10.png)
 
 例えば、Character/Body は、Characterと Bodyという 2 つのタグを作成し、Bodyを Characterの子とします。Character(親)を選択すると、Character(親)タグとBody(子)タグの両方が割り当てられたすべての要素が選択され、Body(子)を選択すると本文が割り当てられた要素のみが選択されます。
 
