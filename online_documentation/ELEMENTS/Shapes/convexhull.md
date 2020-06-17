@@ -6,7 +6,7 @@ https://docs.cavalry.scenegroup.co/elements/shapes/convex-hull
 
 他のシェイプを包含するシェイプを作成します。
 
-### Common Attributes +
+### 共通属性(Common Attributes +)
 
 **Input Shapes** - 凸包を描画するためのシェイプを接続します。
 
