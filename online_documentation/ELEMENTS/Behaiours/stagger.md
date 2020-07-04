@@ -1,6 +1,6 @@
-# Stagger -段々-
+# Stagger -ズレ-
 
-> スタッガー(ずらして配置、重ならないようシフトさせる)
+> スタッガー(段々、ずらして配置、重ならないようシフトさせる)
 
 https://docs.cavalry.scenegroup.co/elements/behaviours/stagger  
 
