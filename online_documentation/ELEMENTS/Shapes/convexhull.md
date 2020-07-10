@@ -22,12 +22,14 @@ https://docs.cavalry.scenegroup.co/elements/shapes/convex-hull
 
 ## 使用例
 
- [convexhull_sample.cv](convexhull.assets/convexhull_sample.cv) 
+![convexhull04](convexhull.assets/convexhull04.gif)
 
 1. 回転するシェイプ３つと動き回る星型シェイプを作成します
 2. **Convex Hull**を作成します。
 3. シェイプをConvex Hullの**Input Shapes**に接続します。
 4. Hit play.(再生ボタンを押します)
 
-![convexhull04](convexhull.assets/convexhull04.gif)
+### サンプルファイル
+
+ [convexhull_sample.cv](convexhull.assets/convexhull_sample.cv) 
 
