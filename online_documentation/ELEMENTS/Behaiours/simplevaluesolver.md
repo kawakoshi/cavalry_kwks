@@ -37,7 +37,7 @@ https://docs.cavalry.scenegroup.co/elements/behaviours/simple-value-solver
    ![simplevaluesolver02](simplevaluesolver.assets/simplevaluesolver02.png)
 3. アトリビュートエディタのSimple Value SolverのValueにValueのビヘイビアを追加します。
    ![simplevaluesolver03](simplevaluesolver.assets/simplevaluesolver03.png)
-4. Valueのビヘイビアの数値を0.5にします。
+4. Valueのビヘイビアの数値を5にします。[！]公式では0.5ですが、辺の数を考えると5の間違いでは？？？
 5. Falloffを作成して、Valueビヘイビアに追加します。
    ![simplevaluesolver04](simplevaluesolver.assets/simplevaluesolver04.png)
 6. Pllygon Shape(多角形シェイプ)を作成します。
