@@ -16,9 +16,18 @@ https://docs.cavalry.scenegroup.co/elements/behaviours/blend-sub-mesh-positions
 
 **Time Offset** - シェイプに沿う時間をオフセット(ずらし)します。
 
-また**Strength**を100より大きくすると、終点(宛先シェイプ)を超える挙動をします。
+## Strengthの挙動について補足
+
+**Strength**を100より大きくすると、終点(宛先シェイプ)を超える挙動をします。
 
 ![blendsubmeshpositions09](blendsubmeshpositions.assets/blendsubmeshpositions09.png)
+
+## シェイプとしてSVGを使用する場合
+
+デュプリケートする素材をCavalryで作成したシェイプではなくSVGを読み込んだ場合は、Shape＞Marge To Editableを使用して、外部ファイルからCacalryで編集できるシェイプに変換することで使用できることがあります。
+しかし、この方法も読み込んだAIやSVGのメッシュ構造によってはBlend Sub Mesh Positionsがうまく機能しないこともあります。
+
+![blendsubmeshpositions10](blendsubmeshpositions.assets/blendsubmeshpositions10.png)
 
 ### 使用例
 
